@@ -1,0 +1,38 @@
+#show_sketch{
+    float: right;
+    margin-right: 50px;
+    margin-left: -1000px;
+    margin-top: -45px;
+}
+h1{
+    width:100%;
+    background-color: lightblue;
+    color:white;
+}
+body{
+    background-color: orange;
+}
+.modal-dialog{
+    width:85%;
+}
+canvas{
+    border:10px ridge gray;
+    border-radius: 5px;
+    animation-name: qwerty;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top:50px;
+}
+
+@keyframes qwerty{
+    from{
+        box-shadow:1px 1px 40px red;
+    }
+    To{
+        box-shadow:1px 1px 40px yellow;
+    }
+}
+
+#label,#percent{
+    font-size: 20px;
+}
